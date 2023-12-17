@@ -1,0 +1,279 @@
+.brands {
+    
+    width: 100%;
+    height: 1100px;
+    background-color:$--color-secondary-light;
+    padding: 70px 0;
+    h3 {
+        text-align: center;
+        font-family: $--font-body;
+        color:$--color-paragraph;
+        font-size: 24px;
+        font-weight: 300;
+        line-height: 24px;
+    }
+    .brandsIcons {
+        width: 80%;
+        margin: auto;
+        gap: 90px;
+        padding: 45px 0;
+    }
+    .brandsLine {
+        width: 70%;
+        margin: auto;
+        height: 1px;
+        background-color:$--color-paragraph;
+        margin-bottom:120px ;
+    }
+}
+
+.brandsBottom {
+        flex-direction: column;
+        gap: 70px;
+        justify-content: center;
+        width: 80%;
+        margin: auto;
+        h1 {
+            color:$--color-secondary-dark; 
+            font-family: $--font-logo; 
+            text-align: center;
+            font-size: 56px;
+            font-weight: 600;
+            line-height: 64px;
+        }
+        .brandsCard {
+            width: 40%;
+            flex-direction: column;
+            background-color:$--color-secondary-white;
+            gap: 60px; 
+            padding: 67px 50px 48px 44px;
+            .brandsCard-content {
+                flex-direction: column;
+                gap: 15px ;
+                h6 {
+                    font-family: $--font-body;
+                    color:$--color-brand-red;
+                    font-size: 14px;
+                    font-weight: 500;
+                    line-height: 14px;
+                }
+                h4 {
+                    font-family: $--font-logo;
+                    color:$--color-paragraph;
+                    font-size: 34px;
+                    font-weight: 500;
+                    line-height: 40px;
+                }
+                p {
+                    font-family: $--font-body;
+                    color:$--color-paragraph;
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 26px;
+                }
+            }
+        }
+}
+
+.bottomCards {
+    justify-content: center;
+    gap: 30px;
+    .card-2 {
+        gap: 40px !important;
+    }
+}
+
+// Brands Section ends here. 
+
+// Section name: Features starts/ 
+
+.features {
+    height: 100%;
+    background-color:#F1F2F1;
+    padding-bottom: 100px ;
+    .featuresHeading {
+        padding-top:120px;
+        width: 70%;
+        margin: auto;
+        h2 {
+        text-align: center;
+        font-family: $--font-logo;
+        color:$--color-secondary-dark;
+        font-size: 56px;
+        font-weight: 600;
+        line-height: 64px;
+        margin-bottom: 178px;
+        }
+    }
+    .featuresContainer {
+        width: 70%;
+        margin: auto;
+        gap: 130px;
+        margin-bottom:130px ;
+        .features-img {
+            width: 100%;
+        img {
+            width: 100%;
+            height: 100%;
+        }
+    }
+        
+        .features-content {
+            h6 {
+
+                color:$--color-brand-red;
+                font-family: $--font-body;
+                text-transform: uppercase;
+                font-size: 14px;
+                font-weight: 500;
+                line-height: 14px; 
+                letter-spacing: 0.84px;
+                margin-bottom: 10px;
+            }
+            h2 {
+                color:$--color-secondary-dark;
+                font-family: $--font-logo;
+                font-size: 44px;
+                font-weight: 600;
+                line-height: 52px;
+                margin-bottom: 20px;
+                span {
+                    color:$--color-brand-red;
+                }
+            }
+            p {
+                color:$--color-paragraph;
+                font-family: $--font-body;
+                font-size: 18px;
+                font-weight: 400;
+                line-height: 30px
+                
+            }
+            .featuresList {
+                gap: 20px;
+                margin: 28px 0 38px ;
+                .list-item {
+                    color:$--color-paragraph;
+                    font-family: $--font-body;
+                    font-size: 18px;
+                    font-weight: 400;
+                    line-height: 18px;
+                    margin-left: 0.5vw;
+                }
+            }
+            button {
+                a {
+                    color:$--color-paragraph;
+                    font-family: $--font-body;
+                    font-size: 16px;
+                    font-weight: 500;
+                    line-height: 16px;
+                }
+            }
+        }
+    }
+}
+
+// This section ended. 
+// New Section name: Solution. 
+
+.solution {
+    width: 100%;
+    margin: auto;
+    height: 100%;
+    background-color:$--color-brand-red;
+    padding: 80px 120px;
+    .solution-cards {
+        gap: 70px;
+    }
+    h2 {
+        width:70%;
+        text-align: center;
+        margin: auto;
+        color:$--color-secondary-btn;
+        font-family: $--font-logo;
+        font-size: 60px;
+        font-weight: 500;
+        line-height: 72px;
+        margin-bottom: 75px;
+    }
+    .solution-card {
+        justify-content: center;
+        align-items:center;
+        
+        div:first-child {
+            margin-bottom: 40px;
+        }
+        h5 {
+            color: $--color-secondary-btn;
+            text-align: center;
+            font-family: $--font-body;
+            font-size: 24px;
+            font-weight: 600;
+            line-height: 24px;
+            margin-bottom: 24px;
+        }
+        p {
+            color: $--color-secondary-btn;
+            text-align: center;
+            font-family: $--font-body;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 30px; 
+        }
+    }
+}
+
+
+// This section ended. 
+// New Section name: Description. 
+
+.description {
+    background-color:$--color-secondary-light;
+    height: 100%;
+    padding: 92px 225px;
+    .descTop {
+        width:95%;
+        margin:auto;
+        align-items:center;
+        gap: 28px;
+        img {
+           width: 150px;
+           height: 150px;
+        }
+        p {
+            color: $--color-black;
+            text-align: center;
+            font-family: $--font-body;
+            font-size: 24px;
+            font-weight: 400;
+            line-height: 38px; 
+            margin-bottom:48px;
+        }
+    }
+    span:first-of-type {
+        display: block;
+        color: $--color-brand-red;
+        text-align: center;
+        font-family: $--font-body;
+        font-size: 26px;
+        font-weight: 600;
+        line-height: 26px;
+        margin-bottom:20px;
+    }
+    span:last-of-type {
+        display: block;
+        color:$--color-black;
+        text-align: center;
+        font-family: $--font-body;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 18px; 
+    }
+}
+
+footer {
+    background-color:$--color-secondary-dark;
+}

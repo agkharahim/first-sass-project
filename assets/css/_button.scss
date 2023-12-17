@@ -1,0 +1,46 @@
+button {
+    display: inline-flex;
+    font-family: $--font-body;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 16px;
+    border-radius:90px;
+}
+
+.btn34 {
+    padding: 18px 34px;
+}
+
+
+.navBtn-s {
+    padding: 18px 28px;
+    border-radius: 57px !important;
+    border: 1px solid #DCDCD8;
+}
+
+.navBtn-l {
+    padding: 18px 28px ;
+    background-color: $--color-brand-red;
+    border:none;
+}
+
+.btn-borderGrey {
+    border:1px solid $--color-border-grey;
+}
+
+.btn-features {
+    background-color:#F1F2F1;
+}
+
+.btn-borderRed {
+    border:1px solid rgba(230, 75, 47, 0.50);
+    a {
+        color:$--color-brand-red !important;
+    }
+}
+
+.btn-fillRed {
+    border:none;
+    background-color:$--color-brand-red;
+}
+

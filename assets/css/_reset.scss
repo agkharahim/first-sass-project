@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@200;300;400;500;700&family=Inter:wght@200;300;400;600;800&family=Montserrat:wght@300;400;500;600;700;800&family=Noto+Serif:wght@400;500;600&family=Open+Sans:wght@300;400;500;600&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,800;1,200;1,400&family=Raleway:wght@500;600;800&family=Roboto+Condensed:wght@700;800;900&family=Roboto+Slab:wght@200;300;400;500;600;800&family=Roboto:wght@400;700&family=Space+Grotesk:wght@300;400;500;700&family=Urbanist:wght@200;300;400;500;600;700;800;900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box ;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.d-flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.d-flex-r {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+button , li  {
+    a {
+        text-decoration: none;
+    }
+}
+
+header .features {
+    background-color:#F1F2F1;
+    position: relative;
+    z-index: -100 ;
+}
+
+body {
+    position: relative;
+    z-index: -10000;
+    
+}
+footer {
+    height: 100%; 
+    background-color:#284D57;
+}

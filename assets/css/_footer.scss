@@ -1,0 +1,94 @@
+footer {
+    padding: 80px 135px;
+    align-items: center;
+    h1 {
+        color: $--color-secondary-light;
+        text-align: center;
+        font-family:$--font-logo;
+        font-size: 44px;
+        font-weight: 600;
+        line-height: 52px;
+        margin-bottom: 36px;
+    }
+    button {
+        background-color:$--color-secondary-dark;
+        margin-bottom: 110px;
+        a {
+            color:$--color-secondary-white;
+        }
+    }
+    .footer-list {
+        gap: 120px;
+        .footer-list-container {
+            gap: 34px;
+            align-self: start;
+            span {
+                color:$--color-secondary-white;
+                font-family: $--font-body;
+                font-size: 18px;
+                font-weight: 400;
+                line-height: 18px;
+                opacity: 0.8;
+            }
+            .footer-list-item {
+                gap: 16px;
+                list-style-type: none;
+                a {
+                    color: $--color-secondary-white;
+                    font-family:$--font-body;
+                    font-size: 18px;
+                    font-weight: 400;
+                    line-height: 18px; 
+                }
+            }
+
+        }
+    }
+    #line {
+        margin: auto;
+        margin-top: 70px;
+        margin-bottom: 25px;
+        width: 90%;
+        height: 1px;
+        background-color:$--color-secondary-white;
+        opacity: 0.2;
+    }
+    .copyright {
+        width: 90%;
+        align-items: center;
+        
+        div:first-child {
+            color: $--color-secondary-white;
+            font-family: $--font-body;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 14px;
+            text-transform: capitalize;
+            opacity: 0.7;
+            margin-right: 3vw;
+        }
+        ul {
+            list-style-type: circle;
+            color: $--color-secondary-white;
+            opacity: 0.7;
+            gap: 35px;
+            a {
+                color: $--color-secondary-white;
+                font-family: $--font-body;
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 14px;
+                opacity: 0.7;
+            }
+        }
+        .footer-logo {
+            color: $--color-secondary-white;
+            font-family: $--font-logo;
+            font-size: 22.182px;
+            font-weight: 400;
+            line-height: 22.182px;
+            margin-left: auto;
+        }
+    }
+}
+
